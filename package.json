@@ -1,6 +1,6 @@
 {
   "name": "@mayankk104/custom-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a project for all ascendenm custom react componets",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
