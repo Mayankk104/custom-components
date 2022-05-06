@@ -1,0 +1,29 @@
+{
+  "name": "@mayankk104/custom-components",
+  "version": "1.0.0",
+  "description": "a project for all ascendenm custom react componets",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "ascendeum",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.8",
+    "react": "^18.1.0",
+    "rollup": "^2.72.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.6.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mayankk104"
+  }
+}
